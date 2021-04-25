@@ -1,0 +1,12 @@
+// @import 'modules/utility/mixin';
+// @import 'modules/header';
+// @import 'modules/main';
+// @import 'modules/footer';
+
+// @import 'modules/utility/mixin', 'modules/header', 'modules/main', 'modules/footer';
+
+@use 'modules/header';
+@use 'modules/main';
+@use 'modules/footer';
+
+

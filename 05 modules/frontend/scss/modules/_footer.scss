@@ -1,0 +1,13 @@
+@use 'utility/mixin' as mix;
+
+.footer ul {
+    @include mix.inline-list();
+    li {
+        background-color: salmon;
+        padding: 0.4em;
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+    }
+}

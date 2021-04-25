@@ -1,0 +1,12 @@
+@use 'utility/mixin' as mix;
+
+.header ul {
+    @include mix.inline-list();
+    li {
+        background-color: red;
+        padding: 0.7em;
+        a {
+            color: white;
+        }
+    }
+}
